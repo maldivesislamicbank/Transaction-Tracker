@@ -21,8 +21,8 @@ const transactions = {
     note: 'Documentation and payment verification have been completed. International transaction verification is currently in progress.',
     timeline: [
       { title: 'Transaction Created', time: '24 May 2026, 10:00 AM', done: true },
-      { title: 'Documentation Processing', time: 'Completed', done: true },
-      { title: 'Payment Verification', time: 'Completed', done: true },
+      { title: 'Documentation Processing', time: 'Completed at 24 May 2026, 04:30 PM', done: true },
+      { title: 'Payment Verification', time: 'Completed at 24 May 2026, 05:40 PM', done: true },
       { title: 'International Transaction Verification', time: 'In Progress', done: true, active: true },
       { title: 'Payment Processed', time: 'Pending', done: false },
       { title: "Received to Receiver's Bank", time: 'Pending', done: false },
