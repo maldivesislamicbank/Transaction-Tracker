@@ -6,7 +6,7 @@ import './style.css';
 const transactions = {
   MIB5446P921: {
     reference: 'MIB5446P921',
-    status: 'Waiting for funds to be received by Indian Bank',
+    status: 'Deposit to receiver's account',
     statusType: 'pending',
     amount: 'INR 799,000.00',
     service: 'Family Support Transfer',
@@ -18,15 +18,15 @@ const transactions = {
     payoutLocation: 'Deposit to Bank Account',
     senderAgent: 'Western Union Maldives',
     receiverBank: 'Indian Bank N/A',
-    note: 'Waiting for confirmation from Indian Bank.',
+    note: 'Funds has been received by your bank. Your bank will deposit the funds to your account',
     timeline: [
       { title: 'Transaction Created', time: '24 May 2026, 10:00 AM', done: true },
       { title: 'Documentation Processing', time: 'Completed at 24 May 2026, 04:30 PM', done: true },
       { title: 'Payment Verification', time: 'Completed at 24 May 2026, 05:40 PM', done: true },
       { title: 'International Transaction Verification', time: 'Completed at 25 May 2026, 11:20 AM', done: true },
       { title: 'Payment Processed', time: 'Completed', done: true },
-      { title: "Received to Receiver's Bank", time: 'In Progress', done: true, active: true },
-      { title: "Deposited to Receiver's Account", time: 'Pending', done: false }
+      { title: "Received to Receiver's Bank", time: 'Completed', done: true },
+      { title: "Deposited to Receiver's Account", time: 'In Progress', done: true, active: true }
     ]
   },
   MCTN1234567890: {
